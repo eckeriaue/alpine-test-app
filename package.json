@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "tsc -w -t es6 ./src/ts/index.ts --outFile ./js/index.js",
+    "build": "tsc -w -t es6 ./src/ts/index.ts --outFile ./js/index.ts"
+  }
+}
