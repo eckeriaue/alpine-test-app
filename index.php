@@ -14,14 +14,14 @@
 
   <div x-data="{open: false}">
     <button x-on:click="open = !open" >click</button>
-    <div x-show="open" x-transition> test text </div>
+    <div x-show="open" x-transition.duration.500ms> test text </div>
   </div>
 
   <test-message> test text3 </test-message>
   <test-message></test-message>
   <test-message></test-message>
   <test-message></test-message>
-
+  <see-more>d'flkgjl;fdkgfl</see-more>
 
 </body>
 </html>
